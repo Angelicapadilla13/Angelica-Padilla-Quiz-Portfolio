@@ -2,10 +2,11 @@ body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
+    background-color: #000000;
 }
 
 header {
-    background-color: #333;
+    background-color: #0f333d;
     color: #fff;
     text-align: center;
     padding: 20px;
@@ -26,10 +27,10 @@ section {
 }
 
 footer {
-    background-color: #646464;
+    background-color: #646464c9;
     color: #fff;
     text-align: center;
-    padding: 10px;
+    padding: 5px;
     position: fixed;
     bottom: 0;
     width: 100%;
@@ -38,7 +39,6 @@ footer {
 
 .about-section {
     text-align: center;
-    padding: 20px;
     background-color: #ffffff;
     border-radius: 10px;
     margin-top: 20px;
@@ -64,3 +64,42 @@ footer {
     line-height: 1.6;
     color: #424141;
   }
+
+  .project-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: #595757;
+    border-radius: 10px;
+    }
+
+    .projected {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color:#3c869f;
+    border-radius: 10px;
+    color: #000000;
+    font-family: impact;
+    }
+
+    .project {
+    margin: 20px;
+    text-align: center;
+    }
+
+    .project img {
+    max-width: 100%;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    }
+
+    .project h4 {
+    color: #d5d3d3;
+    margin-bottom: 10px;
+    font-family: impact;
+    }
+
+    .project p {
+    color: #bfbfbf;
+    }
